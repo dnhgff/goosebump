@@ -2,7 +2,9 @@
 let
   pkgs = import nixpkgs {};
   filter = name: type: let baseName = baseNameOf (toString name); in
-    baseName != "result";
+    baseName != "result" &&
+    baseName != "README.md" &&
+    baseName != "LICENSE";
 
   rev = "057c2d4b42de89c70dd48b92ad7ef1c09b54ef53";
   mongoose = pkgs.fetchFromGitHub {

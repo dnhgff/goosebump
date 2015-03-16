@@ -2,7 +2,7 @@ source $stdenv/setup
 
 installPhase() {
     mkdir -p $out/bin
-    cp mongoose $out/bin
+    cp goosebump $out/bin
 }
 
 genericBuild

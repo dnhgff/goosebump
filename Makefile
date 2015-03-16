@@ -7,5 +7,5 @@ mongoose_opts := \
 	-DMONGOOSE_NO_USER
 OPTS := -pthread -std=c11 -O1 $(mongoose_opts)
 
-build : main.c mongoose.c mongoose.h
+goosebump : main.c mongoose.c mongoose.h
 	gcc $(OPTS) main.c mongoose.c -o goosebump

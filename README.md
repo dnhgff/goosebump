@@ -1,7 +1,7 @@
 goosebump
 =========
 
-this is just a tiny main function that fires off [mongoose http server](https://code.google.com/p/mongoose/). i use it tou make deploying static content to heroku/dokku/deis simple
+this is just a tiny main function that fires off [mongoose http server](https://code.google.com/p/mongoose/). i use it to make deploying static content to heroku/dokku/deis simple
 
 uses
 ----
